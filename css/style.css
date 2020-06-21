@@ -1,0 +1,189 @@
+@import url('fonts.css');
+
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.5rem;
+}
+
+.products-container{
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+}
+
+.category-item.parent-category{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category-item a{
+    font-size: 13px;
+    color: #474747;
+}
+
+.category-item a:hover{
+    color: #000000;
+}
+
+.product-count{
+    color: #979797;
+}
+
+.product-item{
+    transition: all .3s ease-in-out;
+}
+
+.product-item:hover{
+    box-shadow: 0 0 4px 0px #a4a4a4;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.image-wrapper img {
+    width: 100%;
+}
+
+.product-title{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.price-container{
+    font-family: 'Avenir Next LT Pro';
+}
+
+.discount-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: normal;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #f90909;
+}
+
+.prices{
+    line-height: normal;
+}
+
+.normal-price{
+    font-size: 0.8rem;
+    color: #8e8e8e;
+    text-decoration: line-through;
+}
+
+.discounted-price{
+    font-size: 1rem;
+}
+
+.price-mini{
+    font-size: 0.8rem;
+    color: #8e8e8e;
+}
+
+.extra-discount-main{
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+}
+
+.extra-discount-title{
+    font-size: 12px;
+    color: #629347;
+}
+
+.extra-discount-price{
+    font-weight: bold;
+}
+
+.super-fast-text{
+    font-size: 12px;
+    color: #629347;
+    font-weight: bold;
+}
+
+.grid-changer{
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.grid-item{
+    cursor: pointer;
+}
+
+.grid-item:not(.active){
+    filter: grayscale(1);
+}
+
+.pager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Arial';
+}
+
+.pager-item{
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c4c4c;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.pager-item.active,
+.pager-item:hover{
+    color: #ffffff;
+    background-color: #fd5e00;
+}
+
+.pager-item:not(:last-child){
+    margin-right: 10px;
+}
+
+.pager-dots{
+   font-size: 12px;
+   font-weight: 600;
+   color: #4c4c4c;
+   margin-right: 10px;
+}
+
+@media (min-width: 992px) {
+    .grid-changer{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .image-wrapper{
+        transition: padding .3s ease-in-out;
+    }
+
+    .product-item:hover .image-wrapper{
+        padding: 0;
+    }
+}

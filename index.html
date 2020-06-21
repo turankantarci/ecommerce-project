@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Listesi</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <div class="menu-container border p-3">
+                <ul class="categories">
+                    <li class="category-item parent-category">
+                        <a href="#">Alt Kategoriler</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Pişirme <span class="product-count">(583)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Sofra, Servis & Sunum <span class="product-count">(334)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Çay & Kahve Demleme <span class="product-count">(129)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Yemek Hazırlama <span class="product-count">(115)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Fırında Pişirme <span class="product-count">(35)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Çeyiz Setleri <span class="product-count">(24)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Saklama, Düzenleme <span class="product-count">(16)</span>
+                        </a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#">
+                            Termoslar <span class="product-count">(9)</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 pl-md-0">
+            <div class="grid-changer mb-3">
+                <div class="grid-item pr-2 border-right" data-grid="3">
+                    <img src="images/grid-3.png">
+                </div>
+                <div class="grid-item active pl-2" data-grid="4">
+                    <img src="images/grid-4.png">
+                </div>
+            </div>
+            <div class="col products-container mb-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-1.jpg" alt="Ürün 1">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 5 lt A155
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">249,90 TL</div>
+                                    <div class="discounted-price">169,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-2.jpg" alt="Ürün 2">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Turbo Düdüklü Tencere 7 lt A156
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%32</div>
+                                <div class="prices">
+                                    <div class="normal-price">285,90 TL</div>
+                                    <div class="discounted-price price-mini">194,90 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>12</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">171,51 <small>TL</small></div>
+                            </div>
+                        </div>
+                        <div class="super-fast-text mt-4">
+                            Süper Hızlı
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-3.jpg" alt="Ürün 3">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz Kappa Çaydanlık A 078-01
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%57</div>
+                                <div class="prices">
+                                    <div class="normal-price">299,90 TL</div>
+                                    <div class="discounted-price">129,00 TL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 pb-4 border-bottom product-item">
+                        <div class="image-wrapper">
+                            <img src="images/product-4.jpg" alt="Ürün 4">
+                        </div>
+                        <div class="product-title">
+                            Korkmaz A1678 Kappa 8 Parça Tencere Takımı
+                        </div>
+                        <div class="price-container">
+                            <div class="d-flex">
+                                <div class="discount-badge">%27</div>
+                                <div class="prices">
+                                    <div class="normal-price">750,00 TL</div>
+                                    <div class="discounted-price price-mini">546,53 TL</div>
+                                </div>
+                            </div>
+                            <div class="extra-discount-main mt-2">
+                                <div class="extra-discount-title">Sepette %<strong>35</strong> indirimli fiyat</div>
+                                <div class="extra-discount-price">355,24 <small>TL</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pager">
+                <div class="pager-item active">1</div>
+                <div class="pager-item">2</div>
+                <div class="pager-item">3</div>
+                <div class="pager-item">4</div>
+                <div class="pager-item">5</div>
+                <div class="pager-item">6</div>
+                <div class="pager-item">7</div>
+                <div class="pager-dots">...</div>
+                <div class="pager-item">50</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
